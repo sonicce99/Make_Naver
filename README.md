@@ -3,17 +3,9 @@
 
 # Make Naver
 
-Make Naver 는 약 1개월 동안 준비한 개인 프로젝트입니다. 패스트캠퍼스에서 핀테크 서비스 프론트엔드 개발자 양성 과정을 2021년 7월 19일 부터 2022년 2월 14일까지 약 7개월간 수강했으며 2021년 11월 18일 부터 12월 3일 까지 약 2주간 React를 배운 후, 12월 6일부터 12월 23일까지 약 17일 동안 만든 개인 프로젝트입니다. 그렇기 때문에 처음 리액트 설계부분에 부족함이 있어 Redux를 적용하지 못했다든가, 코드를 최적화 하지 못했다는 아쉬움이 있습니다. 하지만 한달도 안되는 기간동안, 수업을 들으며 리액트를 사용해 제가 의도한 기능을 제대로 수행하는 사이트를 만들었다는 것을 높게 평가해 주시면 좋겠습니다.  
+Make Naver 는 약 1개월 동안 준비한 개인 프로젝트입니다. 패스트캠퍼스에서 핀테크 서비스 프론트엔드 개발자 양성 과정을 2021년 7월 19일 부터 2022년 2월 14일까지 약 7개월간 수강했으며 2021년 11월 18일 부터 12월 3일 까지 약 2주간 React를 배운 후, 12월 6일부터 12월 23일까지 약 18일 동안 만든 개인 프로젝트입니다. 그렇기 때문에 처음 리액트 설계부분에 부족함이 있어 Redux를 적용하지 못했다든가, 코드를 최적화 하지 못했다는 아쉬움이 있습니다. 하지만 한달도 안되는 기간동안, 수업을 들으며 리액트를 사용해 제가 의도한 기능을 제대로 수행하는 사이트를 만들었다는 것을 높게 평가해 주시면 좋겠습니다.  
 
 <div align=center><img width="700" alt="프로젝트 기간" src="https://user-images.githubusercontent.com/87749134/148640828-d614c002-9c0d-4923-8b12-528201f028c7.png"></div>
-
-## My youtube channel
-
-https://www.youtube.com/channel/UCqa4CnlUu--_X0lXWURBNEQ
-
-
-### 제가 만든 프로젝트를 영상으로 만들어 youtube에 업로드 해두었습니다.
-
 
 
 ## 프로젝트 개요
@@ -21,12 +13,6 @@ https://www.youtube.com/channel/UCqa4CnlUu--_X0lXWURBNEQ
 제 프로젝트는 사용자가 원하는 제품을 네이버 랭킹순으로 빠르게 찾아서 구매하는 것을 지향하고 있습니다.
 사용자는 본인이 원하는 제품을 실제 네이버 연관검색어를 통해 찾아낼 수 있고 네이버 쇼핑에 등록된 제품을 최저가로 순으로 바로 찾아줍니다. 수많은 제품들 중 카테고리를 1~4단계로 나누어 카테고리 단계별로 구분된 제품들만 모아서 볼 수 있으며, 사용자가 원하는 제품을 실제로 구매할 수 있고 원한다면 장바구니에 담아 원하는 제품만 구매할 수 있습니다.
 
-
-## 프로젝트 목표점
-
-React를 가지고 처음 구현하는 프로젝트 였던 만큼 단순히 기능만을 구현하는것이 아닌 최대한 Naver와 같게, 하지만 단순히 똑같이 구현하기 보다는 *저만의 색깔을 입혀서 만들고 싶었습니다.* 그래서 API 통신 하는 과정에서 로딩중일 때는 제 트레이트 마크인 로고를 보여주게 제작했습니다.
-
-<img width="200" alt="동수의 로그북" src="https://user-images.githubusercontent.com/87749134/148642433-c35704ba-4bcd-4390-b2c8-1492fd9e9913.jpg">
 
 ## Make Naver 개발 로드맵
 
@@ -57,7 +43,7 @@ React를 가지고 처음 구현하는 프로젝트 였던 만큼 단순히 기�
 Client에서 바로 API 통신을 하려고 했더니 CORS Error가 발생했습니다.
 이 문제를 해결하기 위해서 SOP와 CORS에 대해서 공부했고 제 Github에 정리해 두었습니다.
 
-- SOP, CORS 내용 정리 : https://github.com/sonicce99/TIL/blob/main/TMI/2021.12.07.md
+- SOP, CORS 내용 정리 : https://github.com/sonicce99/TIL/blob/main/Javascript/SOP_CORS.md
 
 CRA를 사용한다면 Proxy를 사용하여 간단하게 해결 할 수 있었지만 저는 서버끼리 통신하여 문제를 해결해 보고 싶었습니다. 따라서 Express 모듈을 사용하여 제 서버를 따로 구축했습니다. 그래서 클라이언트에서의 요청을 제 서버가 받아서 네이버 서버와 통신하며 CORS (Cross Origin Resource Sharing) Error 를 해결했습니다.
 
@@ -67,7 +53,7 @@ CRA를 사용한다면 Proxy를 사용하여 간단하게 해결 할 수 있었�
 
 React에 관해 제가 공부한 내용을 전부 github 에 정리했습니다.
 
-- React 내용 정리 : https://github.com/sonicce99/TIL/blob/main/TMI/2021.11.19.md
+- React 내용 정리 : https://github.com/sonicce99/TIL/blob/main/Framework_Library/React.md
 
 Client에 component 하위 폴더로는 cart, history, Home, login, signIn 폴더가 있고 이는 각각 장바구니, 구매내역, 메인페이지, 로그인 페이지, 회원가입 페이지를 렌더링 합니다. 밑으로 App.js를 포함하여 MySQL, Pagenation, Table 파일이 있는데 한가지 아쉬운 점은 컴포넌트 구조를 더 깔끔하게 잡을 수 있을거 같은데 적절한 방법을 제가 잘 모르겠어서 이렇게 표현한 것이 좀 아쉽고 배워서 고쳐야 할 점 같습니다.  
 
@@ -75,7 +61,7 @@ Client에 component 하위 폴더로는 cart, history, Home, login, signIn 폴�
 
 <img width="228" alt="스크린샷 2022-01-09 오후 12 51 37" src="https://user-images.githubusercontent.com/87749134/148668642-e1e51b5d-a0d8-4593-97c4-0e9e097a6f13.png">
 
-- Express 내용정리 :  https://github.com/sonicce99/TIL/blob/main/CS/2022.01.10.md
+- Express 내용정리 :  https://github.com/sonicce99/TIL/blob/main/Framework_Library/Express.md
 
 처음에는 포트번호를 5000 번으로 설정했었습니다. 잘 동작을 했었는데 Mac을 ```Monterey``` 로 버전 업그레이드를 하고 나서 오류가 났습니다.
 
@@ -115,7 +101,7 @@ Client에 component 하위 폴더로는 cart, history, Home, login, signIn 폴�
 
 React는 어느정도 배워서 알고 있었지만 Express와 MySQL에 대해서는 알고 있는 지식이 하나도 없었기 때문에 인터넷, youtube를 뒤져가며 공부했고 제 깃허브에 공부한 내용을 전부 정리했습니다.  
 
-- MySQL 내용정리 :  https://github.com/sonicce99/TIL/blob/main/TMI/2021.12.13.md
+- MySQL 내용정리 :  https://github.com/sonicce99/TIL/blob/main/Framework_Library/MySQL.md
 
 ↓ 구매 버튼을 클릭하면 MySQL 함수 실행
 
@@ -156,13 +142,11 @@ node.js 로 MyBatis 구현 하는법에 대해서 검색했고 해당 블로그�
 
 1. SessionStorage를 사용할 것인가?
 
-  - LocalStorage, SessionStorage 내용정리 : https://github.com/sonicce99/TIL/blob/main/TMI/2021.11.11.md
+  - LocalStorage, SessionStorage 내용정리 : https://github.com/sonicce99/TIL/blob/main/Javascript/LocalStorage_SessionStorage.md
 
 2. react-cookies 를 사용할 것인가?
 
-    - react-cookies 내용정리 : https://github.com/sonicce99/TIL/blob/main/TMI/2021.11.19.md
-
-    - 세션, 토큰, 쿠키, JWT 내용정리 : https://github.com/sonicce99/TIL/blob/main/TMI/2022.01.11.md
+    - 세션, 토큰, 쿠키, JWT 내용정리 : https://github.com/sonicce99/TIL/blob/main/Javascript/Session_token_cookie.md
 
 이번 프로젝트를 구현하면서 CORS에 대한 문제로 공부하고 있을 때 들었던 유튜브가 있었습니다.
 
